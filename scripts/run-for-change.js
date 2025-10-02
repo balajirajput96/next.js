@@ -77,7 +77,8 @@ async function main() {
 
   try {
     await exec('git remote set-branches --add origin canary')
-    await exec('git fetch origin canary --depth=20')
+    // Fetch with deeper history for stable releases that may have many commits
+    await exec('git fetch origin canary --depth=100')
   } catch (err) {
     console.error(await exec('git remote -v'))
     console.error(`Failed to fetch origin/canary`, err)
