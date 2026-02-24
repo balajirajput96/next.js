@@ -348,7 +348,7 @@ async-compression = { version = "0.3.13", default-features = false, features = [
 ] }
 async-trait = "0.1.64"
 bitfield = "0.18.0"
-bytes = "1.1.0"
+bytes = "1.11.1"
 bytes-str = "0.2.7"
 chrono = "0.4.23"
 clap = { version = "4.5.2", features = ["derive"] }
@@ -435,7 +435,7 @@ syn = "2.0.100"
 tempfile = "3.20.0"
 thread_local = "1.1.8"
 thiserror = "1.0.48"
-tokio = "1.43.0"
+tokio = "1.49.0"
 tokio-util = { version = "0.7.13", features = ["io", "rt"] }
 tracing = "0.1.37"
 tracing-subscriber = "0.3.16"
