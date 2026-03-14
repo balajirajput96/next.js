@@ -236,7 +236,7 @@
     "lint-staged": "15.2.2",
     "lodash": "4.17.20",
     "lost": "8.3.1",
-    "minimatch": "3.0.4",
+    "minimatch": "3.1.4",
     "moment": "^2.24.0",
     "nanoid": "3.1.30",
     "next": "workspace:*",
@@ -297,7 +297,7 @@
     "typescript": "5.9.2",
     "unfetch": "4.2.0",
     "wait-port": "0.2.2",
-    "webpack": "5.98.0",
+    "webpack": "5.104.1",
     "webpack-bundle-analyzer": "4.7.0",
     "webpack-dev-server": "5.2.0",
     "whatwg-fetch": "3.0.0",
@@ -311,7 +311,7 @@
   "packageManager": "pnpm@9.6.0",
   "pnpm": {
     "overrides": {
-      "webpack": "5.98.0",
+      "webpack": "5.104.1",
       "browserslist": "4.26.2",
       "caniuse-lite": "1.0.30001746",
       "@types/node": "20.17.6",
